@@ -5,7 +5,7 @@ def code(file: str):
     file_name = file
     text = ""
     # Open the workbook and define the worksheet
-    wb = xlrd3.open_workbook('Team2Table.xlsx')
+    wb = xlrd3.open_workbook('EncodingTable.xlsx')
     # If given an error trying to run this line try: pip install xlrd==1.2.0
     # Using short character sheet first
     sh = wb.sheet_by_name('Sheet1')
