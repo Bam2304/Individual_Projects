@@ -4,7 +4,7 @@ import xlrd3
 def decode(file="binOutput.txt"):  # defaults to binOutput
     values = []
     # Open the workbook and define the worksheet
-    wb = xlrd3.open_workbook('Team2Table.xlsx')
+    wb = xlrd3.open_workbook('EncodingTable.xlsx')
     # Using short character sheet first
     sh = wb.sheet_by_name('Sheet1')
     Bin2Char = {}
